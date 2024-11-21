@@ -7,7 +7,7 @@ const expressListEndpoints = require("express-list-endpoints");
 const randomConspiracyTheories = require("./data/random-conspiracy-theories.json");
 
 
-const mongoUrl = process.env.MONGO_URL || "mongodb://localhost/project-first-api"
+const mongoUrl = process.env.MONGO_URL
 mongoose.connect(mongoUrl)
 mongoose.Promise = Promise
 
