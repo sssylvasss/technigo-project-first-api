@@ -1,0 +1,144 @@
+[
+    {
+      "theoryID": 1,
+      "title": "The Moon Landing Was Faked",
+      "origin_year": 1969,
+      "popularity_rating": 9.2,
+      "believability_score": 5.3,
+      "key_figures": ["Neil Armstrong", "Buzz Aldrin", "Stanley Kubrick"],
+      "evidence_rating": 6.8,
+      "description": "Some believe the 1969 Apollo moon landing was filmed on a Hollywood set, directed by Stanley Kubrick.",
+      "notable_quotes": [
+        "One small step for man, one giant leap for mankind... or for Hollywood?",
+        "The flag moves, but there's no wind on the moon! Coincidence?"
+      ]
+    },
+    {
+      "theoryID": 2,
+      "title": "Area 51 Holds Alien Technology",
+      "origin_year": 1947,
+      "popularity_rating": 8.7,
+      "believability_score": 7.1,
+      "key_figures": ["US Government", "Alien Entities", "Bob Lazar"],
+      "evidence_rating": 7.9,
+      "description": "Conspiracy theorists claim Area 51 is a top-secret government facility housing alien technology.",
+      "notable_quotes": [
+        "I’ve seen things you wouldn’t believe… saucers on fire off the shoulder of Nevada.",
+        "Just because they say it's a weather balloon doesn’t mean it is."
+      ]
+    },
+    {
+      "theoryID": 3,
+      "title": "The Earth is Flat",
+      "origin_year": 1956,
+      "popularity_rating": 7.5,
+      "believability_score": 3.5,
+      "key_figures": ["Flat Earth Society", "B.o.B (the rapper)"],
+      "evidence_rating": 4.0,
+      "description": "Advocates believe that the Earth is flat and that satellite imagery is part of a vast conspiracy.",
+      "notable_quotes": [
+        "If the Earth is round, why don’t we feel it spinning?",
+        "Water doesn’t curve… think about it."
+      ]
+    },
+    {
+      "theoryID": 4,
+      "title": "The Reptilian Elite",
+      "origin_year": 1999,
+      "popularity_rating": 6.8,
+      "believability_score": 4.8,
+      "key_figures": ["David Icke", "Queen Elizabeth II", "Justin Bieber"],
+      "evidence_rating": 5.1,
+      "description": "Some believe a race of reptilian aliens controls world leaders, influencing global politics in secret.",
+      "notable_quotes": [
+        "Ever noticed their eyes blink sideways?",
+        "They’re hiding in plain sight, wearing human masks!"
+      ]
+    },
+   
+      {
+        "theoryID": 5,
+        "title": "The Illuminati Controls the World",
+        "origin_year": 1776,
+        "popularity_rating": 9.5,
+        "believability_score": 6.9,
+        "key_figures": ["Jay-Z", "Beyoncé", "The Rothschild Family"],
+        "evidence_rating": 7.0,
+        "description": "A secret society allegedly pulls the strings of global politics and entertainment, shaping the world to its liking.",
+        "notable_quotes": [
+          "Why is there an all-seeing eye on the dollar bill?",
+          "The Illuminati is everywhere—just follow the triangles!"
+        ]
+      },
+      {
+        "theoryID": 6,
+        "title": "Bigfoot Exists",
+        "origin_year": 1958,
+        "popularity_rating": 8.1,
+        "believability_score": 5.4,
+        "key_figures": ["Forest Rangers", "Cryptozoologists", "Grainy Camera Footage"],
+        "evidence_rating": 5.8,
+        "description": "Bigfoot, a giant ape-like creature, is said to roam the forests of North America, evading human detection.",
+        "notable_quotes": [
+          "If it’s a hoax, why hasn’t anyone disproved it?",
+          "That’s not a bear—look at those footprints!"
+        ]
+      },
+      {
+        "theoryID": 7,
+        "title": "5G Causes Mind Control",
+        "origin_year": 2020,
+        "popularity_rating": 7.2,
+        "believability_score": 4.0,
+        "key_figures": ["Telecom Companies", "Shadow Governments"],
+        "evidence_rating": 3.9,
+        "description": "Conspiracists believe that 5G cell towers emit frequencies capable of controlling thoughts or even causing health issues.",
+        "notable_quotes": [
+          "Why do we need so many towers if 5G is so fast?",
+          "Your WiFi router might be the real enemy."
+        ]
+      },
+      {
+        "theoryID": 8,
+        "title": "Time Travelers Built the Pyramids",
+        "origin_year": 1974,
+        "popularity_rating": 6.5,
+        "believability_score": 5.2,
+        "key_figures": ["Ancient Aliens Fans", "Historians", "Mystery Science Writers"],
+        "evidence_rating": 6.0,
+        "description": "Some claim the Egyptian pyramids were constructed with advanced technology brought back by time travelers from the future.",
+        "notable_quotes": [
+          "The precision is beyond what ancient tools could achieve!",
+          "Maybe they didn’t just leave, but they’ll be back."
+        ]
+      },
+      {
+        "theoryID": 9,
+        "title": "Dinosaurs Helped Build Stonehenge",
+        "origin_year": 1986,
+        "popularity_rating": 5.8,
+        "believability_score": 3.1,
+        "key_figures": ["Paleontologists", "Stonehenge Tourists"],
+        "evidence_rating": 2.7,
+        "description": "A fringe theory suggests that dinosaurs, trained by ancient humans, were used to transport the massive stones.",
+        "notable_quotes": [
+          "How else could they move 25-ton rocks?",
+          "T-Rex may have had tiny arms, but it had strong friends."
+        ]
+      },
+      {
+        "theoryID": 10,
+        "title": "The Bermuda Triangle is an Alien Portal",
+        "origin_year": 1918,
+        "popularity_rating": 8.9,
+        "believability_score": 7.0,
+        "key_figures": ["Missing Ships", "Missing Planes", "Aliens"],
+        "evidence_rating": 7.5,
+        "description": "Some believe that the Bermuda Triangle is a portal used by extraterrestrials to abduct humans or transport technology.",
+        "notable_quotes": [
+          "It’s not just bad weather—ships disappear without a trace!",
+          "Aliens might have found the ultimate teleportation hotspot."
+        ]
+      }
+    ]
+    
