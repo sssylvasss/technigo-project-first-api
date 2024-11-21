@@ -1,24 +1,36 @@
+
 # First API
 
-Replace this readme with your own information about the project. You can include things like:
+## Random Conspiracy Theories API
+Use the following endpoints to explore the theories:
 
-- Brief description of the assignment
-- How you approached the task, what tools and techniques you used, and how you planned it
-- If you had more time, what would be next?
-- How to run the project locally
+- `/conspiracy-theories` - Get all conspiracy theories
+- `/conspiracy-theories/names` - Get the titles of all conspiracy theories
+- `/conspiracy-theories/theorie/:id` - Get a specific conspiracy theory by ID, nr. 1-10
 
-## View it live
-Every project should be deployed somewhere. Be sure to include the link to the deployed project so that the viewer can click around and see what it's all about.
+## Brief Description of the Assignment
+This project is a simple API that serves random conspiracy theories. The API provides endpoints to retrieve all theories, get the titles of all theories, and fetch a specific theory by its ID.
+
+## Approach and Tools Used
+- **Express.js**: Used to create the server and handle routing.
+- **Mongoose**: Used to interact with MongoDB for storing and retrieving conspiracy theories.
+- **MongoDB**: Used as the database to store the conspiracy theories.
+- **CORS**: Used to handle Cross-Origin Resource Sharing.
+- **Nodemon**: Used for automatic server restarts during development.
+- **Babel**: Used to transpile modern JavaScript for compatibility.
 
 
-## Getting Started with the Project
+## How to Run the Project Locally
+1. Clone the repository:
+    ```bash
+    git clone <repository-url>
+    cd <repository-directory>
+    ```
 
-### Dependency Installation & Startup Development Server
+2. Install dependencies and start the development server:
+    ```bash
+    npm i && npm run dev
+    ```
 
-Once cloned, navigate to the project's root directory and this project uses npm (Node Package Manager) to manage its dependencies.
+3. Ensure MongoDB is running locally or update the `MONGO_URL` in the `.env` file to point to your MongoDB instance.
 
-The command below is a combination of installing dependencies, opening up the project on VS Code and it will run a development server on your terminal.
-
-```bash
-npm i && code . && npm run dev
-```
