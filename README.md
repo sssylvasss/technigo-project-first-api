@@ -46,7 +46,7 @@ If I had more time, I would:
     ```
 
 ## View it Live
-Every project should be deployed somewhere. Be sure to include the link to the deployed project so that the viewer can click around and see what it's all about.
+https://random-conspiracy-theories.onrender.com/
 
 ## Getting Started with the Project
 
