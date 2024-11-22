@@ -7,7 +7,7 @@ const expressListEndpoints = require("express-list-endpoints");
 const randomConspiracyTheories = require("./data/random-conspiracy-theories.json");
 
 
-const mongoUrl = process.env.MONGO_URL
+const mongoUrl = process.env.MONGO_URL || "mongodb://localhost/project-first-api"
 mongoose.connect(mongoUrl)
 mongoose.Promise = Promise
 
@@ -55,7 +55,7 @@ res.send(`
         <li><a href="/conspiracy-theories/theorie/:id">/conspiracy-theories/theorie/:id</a> - Get a specific conspiracy theory by ID, nr. 1-10</li>
         ${[...Array(10).keys()].map(i => `
           <li>
-            <button onclick="window.location.href='/conspiracy-theories/theorie/${i + 1}'">Theory ${i + 1}</button>
+            <button onclick="window.location.href='/conspiracy-theories/theorie/${i + 1}'">Theory ${i + 1}, ${randomConspiracyTheories[i].title}</button>
           </li>
         `).join('')}
         </ul>
