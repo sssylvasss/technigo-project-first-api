@@ -34,3 +34,4 @@ This project is a simple API that serves random conspiracy theories. The API pro
 
 3. Ensure MongoDB is running locally or update the `MONGO_URL` in the `.env` file to point to your MongoDB instance.
 
+RESET_DATABASE=true npm run dev 
