@@ -1,7 +1,11 @@
+
+const dotenv = require('dotenv');
+dotenv.config()
 const cors = require("cors");
 const express = require("express");
 const mongoose = require("mongoose");
 const expressListEndpoints = require("express-list-endpoints");
+
 
 
 const randomConspiracyTheories = require("./data/random-conspiracy-theories.json");
