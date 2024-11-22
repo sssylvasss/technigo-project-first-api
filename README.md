@@ -1,4 +1,3 @@
-
 # First API
 
 ## Random Conspiracy Theories API
@@ -19,6 +18,13 @@ This project is a simple API that serves random conspiracy theories. The API pro
 - **Nodemon**: Used for automatic server restarts during development.
 - **Babel**: Used to transpile modern JavaScript for compatibility.
 
+## Next Steps
+If I had more time, I would:
+- Add more endpoints to filter theories based on different criteria (e.g., popularity, believability).
+- Implement user authentication and authorization.
+- Add unit and integration tests to ensure the reliability of the API.
+- Improve error handling and validation for incoming requests.
+- Deploy the API to a cloud service like Heroku or AWS.
 
 ## How to Run the Project Locally
 1. Clone the repository:
@@ -27,11 +33,27 @@ This project is a simple API that serves random conspiracy theories. The API pro
     cd <repository-directory>
     ```
 
-2. Install dependencies and start the development server:
+2. Install dependencies:
     ```bash
-    npm i && npm run dev
+    npm install
     ```
 
 3. Ensure MongoDB is running locally or update the `MONGO_URL` in the `.env` file to point to your MongoDB instance.
 
-RESET_DATABASE=true npm run dev 
+4. Start the development server:
+    ```bash
+    RESET_DATABASE=true npm run dev
+    ```
+
+## View it Live
+Every project should be deployed somewhere. Be sure to include the link to the deployed project so that the viewer can click around and see what it's all about.
+
+## Getting Started with the Project
+
+### Dependency Installation & Startup Development Server
+Once cloned, navigate to the project's root directory and this project uses npm (Node Package Manager) to manage its dependencies.
+
+The command below is a combination of installing dependencies, opening up the project on VS Code and it will run a development server on your terminal.
+
+```bash
+npm i && code . && npm run dev

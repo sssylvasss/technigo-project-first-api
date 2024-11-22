@@ -6,11 +6,19 @@ const expressListEndpoints = require("express-list-endpoints");
 
 const randomConspiracyTheories = require("./data/random-conspiracy-theories.json");
 
+const port = process.env.PORT || 8080
+const app = express()
+
+app.use(cors())
 
 const mongoUrl = process.env.MONGO_URL || "mongodb://localhost/project-first-api"
 mongoose.connect(mongoUrl)
 mongoose.Promise = Promise
 
+
+mongoose.connect(mongoUrl, { useNewUrlParser: true, useUnifiedTopology: true })
+    .then(() => console.log('Connected to MongoDB Atlas'))
+    .catch(err => console.error('MongoDB connection error:', err));
 
 const Theorie = mongoose.model("Theorie", {
   theoryID: Number,
@@ -34,10 +42,6 @@ if (process.env.RESET_DATABASE) {
   seedDatabase()
 }
 
-const port = process.env.PORT || 8080
-const app = express()
-
-app.use(cors())
 app.use(express.json())
 
 app.get("/", (req, res) => {
