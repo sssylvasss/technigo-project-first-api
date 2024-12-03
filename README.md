@@ -18,14 +18,6 @@ This project is a simple API that serves random conspiracy theories. The API pro
 - **Nodemon**: Used for automatic server restarts during development.
 - **Babel**: Used to transpile modern JavaScript for compatibility.
 
-## Next Steps
-If I had more time, I would:
-- Add more endpoints to filter theories based on different criteria (e.g., popularity, believability).
-- Implement user authentication and authorization.
-- Add unit and integration tests to ensure the reliability of the API.
-- Improve error handling and validation for incoming requests.
-- Deploy the API to a cloud service like Heroku or AWS.
-
 ## How to Run the Project Locally
 1. Clone the repository:
     ```bash
